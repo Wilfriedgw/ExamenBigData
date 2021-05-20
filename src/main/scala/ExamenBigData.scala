@@ -12,7 +12,7 @@ object ExamenBigData {
 
   def modifier_fin(L:List[String]):List[String]={
 
-    val maliste1=L.filter(e=>(e.charAt(e.length-1)=="n"))
+    val maliste1=L.filter(e => e.endsWith("n"))
 
       return maliste1
   }
